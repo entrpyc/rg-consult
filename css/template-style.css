@@ -1,0 +1,837 @@
+a.white-btn {
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	font-size: 0.85em;
+	margin-top: 1.25em;
+	padding: 0.625em 1.25em;
+	transition: all 0.20s linear 0s;
+	-o-transition: all 0.20s linear 0s;
+	-ms-transition: all 0.20s linear 0s;
+	-moz-transition: all 0.20s linear 0s;
+	-webkit-transition: all 0.20s linear 0s;
+}
+a.white-btn:hover {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+}
+a.color-btn, form.customform button.color-btn {
+	background: none;
+	border: 1px solid #001925;
+	border-radius: 3px;
+	color: #001925;
+	display: block;
+	font-size: 0.85em;
+	padding: 0.625em 1.25em;
+	transition: all 0.20s linear 0s;
+	-o-transition: all 0.20s linear 0s;
+	-ms-transition: all 0.20s linear 0s;
+	-moz-transition: all 0.20s linear 0s;
+	-webkit-transition: all 0.20s linear 0s;
+}
+a.color-btn:hover, form.customform button.color-btn:hover {
+	border: 1px solid #92c500;
+	color: #92c500;
+}
+#topbar {
+	background: none repeat scroll 0 0 #012232;
+	border-bottom: 1px solid #001925;
+	padding: 0.3125em 0;
+}
+#topbar p {
+	color: #fff;
+	font-size: 0.75em;
+	opacity: 0.5;
+	position: relative;
+	top: 2px;
+}
+#topbar p strong {
+	font-weight: 600;
+}
+#topbar i {
+	color: #ffffff;
+	font-size: 1.1em;
+	opacity: 0.5;
+	transition: all 0.20s linear 0s;
+	-o-transition: all 0.20s linear 0s;
+	-ms-transition: all 0.20s linear 0s;
+	-moz-transition: all 0.20s linear 0s;
+	-webkit-transition: all 0.20s linear 0s;
+}
+#topbar i:hover {
+	color: #92c500;
+	cursor: pointer;
+	opacity: 1;
+}
+nav {
+	background: none repeat scroll 0 0 #00283a;
+}
+header {
+	border-bottom: 4px solid rgba(0, 40, 58, 0.53);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+p.logo {
+	color: #fff;
+	font-size: 1.7em;
+	font-weight: 300;
+	position: relative;
+	text-transform: uppercase;
+	top: 0.625em;
+}
+p.logo strong {
+	font-weight: 700;
+}
+.top-nav li a {
+	border-top: 2px solid #00283a;
+	color: #fff;
+	font-size: 0.80em;
+	font-weight: 600;
+	padding: 2.1em 1.5em 2.5em;
+	text-transform: uppercase;
+	transition: all 0.20s linear 0s;
+	-o-transition: all 0.20s linear 0s;
+	-ms-transition: all 0.20s linear 0s;
+	-moz-transition: all 0.20s linear 0s;
+	-webkit-transition: all 0.20s linear 0s;
+}
+.top-nav li a:hover, .top-nav li.active-item a {
+	background: none repeat scroll 0 0 #00283a;
+	border-top: 2px solid #92c500;
+	color: #92c500;
+	position: relative;
+}
+#home .text {
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.item {
+	overflow: hidden;
+	width: 100%;
+}
+.prev-arrow, .next-arrow {
+	background: none repeat scroll 0 0 #00283a;
+	cursor: pointer;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 1px;
+	text-align: center;
+	width: 30px;
+}
+#home .text h2 {
+	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+	color: #fff;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 300;
+	margin: 1px 0;
+	max-width: 600px;
+	padding: 10px 20px;
+	width: 100%;
+}
+#home .text p {
+	background: none repeat scroll 0 0 #00283a;
+	color: #fff;
+	max-width: 600px;
+	padding: 10px 20px;
+	width: 100%;
+}
+#home .owl-theme .owl-controls {
+	background: none repeat scroll 0 0 rgba(0, 40, 58, 0.53);
+	bottom: 0;
+	margin: 0;
+	padding: 0.625em 0;
+	position: absolute;
+	width: 100%;
+}
+.owl-theme .owl-controls .owl-page span {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 3px solid rgba(0, 40, 58, 0.57);
+	height: 18px;
+	margin: 0 0.3125em;
+	opacity: 1;
+	width: 18px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: none repeat scroll 0 0 #92c500;
+}
+#bulgarian-visa, #about-us {
+	background: none repeat scroll 0 0 #00283a;
+	padding: 3em 2em;
+	text-align: center;
+}
+#bulgarian-visa h1, #about-us h1 {
+	color: #fff;
+	font-size: 2em;
+	font-weight: 300;
+	margin-top: 0;
+}
+#bulgarian-visa p, #about-us p {
+	color: #6c7c84;
+	font-size: 0.85em;
+}
+#features {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	padding: 6em 2em;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+#features i {
+	background: none repeat scroll 0 0 #92c500;
+	border-radius: 100px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
+	color: #fff;
+	display: inline-block;
+	font-size: 2em;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 100px;
+}
+#features h2 {
+	font-size: 1em;
+	font-weight: 600;
+	margin: 1.25em 0;
+	text-transform: uppercase;
+}
+#features p {
+	color: #777;
+	font-size: 0.85em;
+	line-height: 1.5em;
+}
+#bulgarian-visa, #about-us {
+	background: none repeat scroll 0 0 #00283a;
+	clear: both;
+}
+#bulgarian-visa:after, #about-us:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+#bulgarian-visa article, #about-us article {
+	padding: 4em;
+}
+article h2 {
+	font-size: 4em;
+	font-weight: 900;
+	letter-spacing: -2px;
+	line-height: 0.9;
+	margin: 0 0 0.625em 0
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+	color: #fff;
+}
+.media-container {
+  overflow: hidden;
+}
+.media-container video, .media-container img {
+  display: block;
+  height: 100%;
+  max-width: none;
+  min-width: 100%;
+  width: auto;
+}
+article p, article li {
+	color: #fff;
+	font-size: 0.85em;
+	opacity: 0.7;
+}
+article ul {
+	padding: 1.25em 0;
+}
+article ul li {
+	list-style-type: none;
+	margin: 0.625em 0;
+	padding: 0 0 0 1em;
+}
+article ul li:before {
+	background: #00283a none repeat scroll 0 0;
+	color: #fff;
+	content: "\f006";
+	display: inline-block;
+	font-family: "mfg";
+	font-size: 0.8em;
+	height: 20px;
+	line-height: 20px;
+	margin-left: -1em;
+	margin-right: 0.625em;
+	text-align: center;
+	width: 20px;
+}
+.about-us-icons i {
+	border: 2px solid #92c500;
+	border-radius: 100px;
+	color: #92c500;
+	display: block;
+	float: left;
+	font-size: 1.6em;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 0.625em;
+	text-align: center;
+	width: 60px;
+}
+.about-us-icons {
+	display: block;
+	margin-top: 2em;
+}
+h2.section-title:after {
+	background: #dedede none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 1px;
+	margin: 0.31225em auto 0;
+	position: relative;
+	width: 100px;
+}
+h2.section-title {
+	word-wrap: break-word;
+	color: #999999;
+	font-size: 3.8em;
+	font-weight: 700 !important;;
+	letter-spacing: -1px;
+	margin: 0 0 1.25em !important;;
+	text-align: center;
+	text-transform: uppercase !important;;
+}
+#our-work {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	padding: 6em 2em;
+	position: relative;
+	z-index: 2;
+}
+.tab-item {
+	background: #fff none repeat scroll 0 0;
+	margin-top: 1.25em;
+	padding: 1.25em 0;
+}
+.our-work-container {
+	display: block;
+	height: 100%;
+	position: relative;
+}
+.our-work-text {
+	background: #00283a none repeat scroll 0 0;
+	bottom: 0;
+	display: block;
+	left: 0;
+	opacity: 0;
+	padding: 1.25em;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	transition: opacity 0.20s linear 0s;
+	-o-transition: opacityd 0.20s linear 0s;
+	-ms-transition: opacity 0.20s linear 0s;
+	-moz-transition: opacity 0.20s linear 0s;
+	-webkit-transition: opacity 0.20s linear 0s;
+	width: 100%;
+}
+.our-work-container:hover > .our-work-text {
+	opacity: 1;
+}
+.our-work-text h4 {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 600;
+}
+.our-work-text p {
+	color: #fff;
+	font-size: 0.8em;
+	opacity: 0.7;
+}
+.tab-nav {
+	display: table;
+}
+a.tab-label, a.tab-label:link, a.tab-label:visited {
+	background: #00283a none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-size: 1em;
+	padding: 0.625em 1.25em;
+	transition: all 0.20s linear 0s;
+	-o-transition: all 0.20s linear 0s;
+	-ms-transition: all 0.20s linear 0s;
+	-moz-transition: all 0.20s linear 0s;
+	-webkit-transition: all 0.20s linear 0s;
+}
+a.tab-label:hover, a.tab-label.active-btn {
+	background: #92c500;
+	color: #fff;
+}
+#real-estate-and-investment {
+	background: #eeeeee none repeat scroll 0 0;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	padding: 6em 2em;
+}
+#real-estate-and-investment h2 {
+	color: #999999;
+	font-size: 3.8em;
+	font-weight: 700 !important;
+	letter-spacing: -1px;
+	margin: 0 0 1.25em !important;
+	text-align: center;
+	text-transform: uppercase !important;
+}
+#real-estate-and-investment h2.section-title:after {
+	background: #fff none repeat scroll 0 0;
+}
+#real-estate-and-investment i {
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 80px;
+	color: #6f9600;
+	display: block;
+	float: left;
+	font-size: 1.8em;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 0.625em;
+	text-align: center;
+	width: 80px;
+}
+.service-text {
+	display: table;
+	position: relative;
+}
+#real-estate-and-investment h3 {
+	color: #777;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#real-estate-and-investment p {
+	color: #777;
+	font-size: 0.8em;
+}
+#latest-news, #commercial-law {
+	background: #f3f3f3 none repeat scroll 0 0;
+	box-shadow: 0px -10px 9px -11px rgba(0, 0, 0, 0.5);
+	padding: 6em 2em;
+	position: relative;
+	z-index: 3;
+}
+.news-date {
+	background: #6f9600 none repeat scroll 0 0;
+	clear: both;
+	color: #fff;
+	display: block;
+	float: none;
+	min-height: 118px;
+	padding: 0.625em 0;
+	text-align: center;
+	width: 100%;
+}
+.day {
+	font-size: 2.5em;
+	font-weight: 700;
+}
+.month, .year {
+	font-size: 0.85em;
+}
+.news-text {
+	background: #fff none repeat scroll 0 0;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	min-height: 118px;
+	padding: 0.625em 1.25em;
+}
+.news-text p {
+	color: #777;
+	font-size: 0.85em;
+}
+#contact {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	padding: 13em 2em;
+	position: relative;
+	z-index: 2;
+}
+#contact input, #contact textarea {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-radius: 3px;
+}
+form.customform button.color-btn {
+	height: auto;
+	margin-top: 0;
+}
+#contact h2 {
+	margin: 0 0 1.25em;
+}
+#contact h3 {
+	color: #92c500;
+	font-size: 1em;
+	font-weight: 700;
+	margin: 0 0 0.625em;
+	text-transform: uppercase;
+}
+#contact p {
+	font-size: 0.85em;
+	font-style: normal;
+	line-height: 2em;
+}
+#contact p strong {
+	font-weight: 700;
+}
+#contact i {
+	background: #e0e0e0 none repeat scroll 0 0;
+	border-radius: 30px;
+	color: #fff;
+	display: inline-block;
+	line-height: 26px;
+	margin: 0.625em;
+	text-align: center;
+	width: 26px;
+}
+#map-block {
+  filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);    
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
+}
+footer {
+	background: none repeat scroll 0 0 #00283a;
+	padding: 3.5em 0;
+}
+footer p, footer a:visited, footer a, footer a:hover {
+	color: #6c7c84;
+	font-size: 0.8em;
+}
+@media screen and (max-width: 768px) {
+	.top-nav li a {
+		margin-left: 19%;
+	}
+  header {
+  	position: relative;
+  }
+  .top-nav li a {
+  	background: #05374e none repeat scroll 0 0;
+  }
+  #home .text {
+  	font-size: 0.8em;
+  	top: 20%;
+  }
+  .owl-controls.clickable {
+  	display: none!important;
+  }
+  .right {
+  	float: none;
+  }
+  .social.right {
+  	float: right;
+  }
+  #bulgarian-visa article, #about-us article {
+  	padding: 4em 2.5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  #topbar {
+  	line-height: 1.625em;
+  	text-align: center;
+  }
+  .social.right {
+  	float: none;
+  }
+  p.logo, p.nav-text {
+  	text-align: center;
+  }
+}
+
+.logo {
+	width: 187%;
+	max-width: 370px;
+	padding-top: 11px;
+	float: left;
+}
+
+.strong {
+	color: #8c979d !important;
+	font-weight: 600;
+}
+
+#bulgarian-visa > div > h1, #about-us > div > h1 {
+	color: #fff;
+	font-size: 3.2em !important;
+	line-height: 87px;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+#features > div > div > div:nth-child(2) {
+	float: left;
+}
+
+#commercial-law > div > div > div > div.s-12.l-2 {
+	width: 100%;
+}
+
+#commercial-law > div > div > div > div.s-12.l-10 {
+	width: 100%;
+}
+
+.news-date-1 {
+	background: #6f9600 none repeat scroll 0 0;
+	clear: both;
+	color: #fff;
+	display: block;
+	float: none;
+	/* min-height: 118px; */
+	padding: 0.625em 0;
+	text-align: center;
+	width: 100%;
+}
+
+.day-1 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.adv-dis {
+	font-size: 16px;
+	text-align: center;
+	line-height: 26px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#commercial-law > div > div > div:nth-child(1) > div.s-12.l-2 > div {
+	background-color: #7aa920;
+}
+
+#commercial-law > div > div > div:nth-child(2) > div.s-12.l-2 > div {
+	background-color: #933e2a;
+}
+
+#commercial-law > div > h4, #commercial-law > div > div > h4 {
+	color: #888;
+	padding-bottom: 25px;
+	text-align: center;
+	margin-top: -17px;
+}
+
+#commercial-law > div > div:nth-child(4) > h4 {
+	margin-top: 20px;
+	padding-bottom: 23px;
+}
+
+.list-items-1 {
+	/* font-size: 16px; */
+	/* text-align: center; */
+	line-height: 22px;
+	/* padding-top: 7px; */
+	/* padding-bottom: 7px; */
+	color: #555;
+}
+
+.clear-box {
+	margin-top: 50px !important;
+	padding-bottom: 23px !important;
+}
+
+#bulgarian-visa > article > h2, #about-us > article > h2 {
+	font-size: 35px;
+}
+
+.list-items-2 {
+	/* font-size: 16px; */
+	/* text-align: center; */
+	line-height: 25px;
+	/* padding-top: 7px; */
+	/* padding-bottom: 7px; */
+	color: #aaa;
+	font-size: 15px;
+}
+
+.news-date-1 {
+	clear: both;
+	color: #fff;
+	display: none;
+	float: right;
+	min-height: 118px;
+	padding: 0.625em 0;
+	text-align: center;
+	width: 7px;
+}
+
+#bulgarian-visa > div.line > div > div:nth-child(1) > div.s-12.l-2, #about-us > div.line > div > div:nth-child(1) > div.s-12.l-2 {
+	width: 0% !important;
+}
+#bulgarian-visa > div.line, #about-us > div.line {
+	width: 88%;
+}
+
+.title-2 {
+	font-size: 35px;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: -2px;
+	line-height: 0.9;
+	margin: 0 0 0.625em 0;
+	padding-top: 58px;
+	text-align: center;
+	padding-bottom: 51px;
+}
+
+#bulgarian-visa > div.line > div > div, #about-us > div.line > div > div {
+	height: 223px;
+}
+
+#bulgarian-visa > div.line > div > div > div.s-12.l-10, #about-us > div.line > div > div > div.s-12.l-10 {
+	border-left: 7px solid #6f9600;
+}
+
+.l-2-2 {
+	width: 0;
+	padding-left: 7%;
+}
+
+.news-date-1-2 {
+	clear: both;
+	color: #fff;
+	display: block;
+	float: none;
+	/* min-height: 118px; */
+	padding: 0.625em 0;
+	text-align: center;
+	width: 100%;
+}
+
+#bulgarian-visa > div.line > div > div > div.s-12.l-10 > div, #about-us > div.line > div > div > div.s-12.l-10 > div {
+	min-height: 177px;
+}
+
+#intellectual-property {
+	background: none repeat scroll 0 0 #00283a;
+	padding: 3em 2em;
+	text-align: center;
+}
+
+#intellectual-property > div > h1 {
+	word-wrap: break-word;
+	color: #fff;
+	font-size: 3.2em;
+	line-height: 87px;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+#intellectual-property p {
+	color: #6c7c84;
+	font-size: 1em;
+}
+
+#real-estate-and-investment > div > div > div > div > ul > li > p {
+	font-size: 15px !important;
+}
+
+#bulgarian-visa > article, #about-us > article {
+	margin-left: 26%;
+	text-align: center;
+}
+
+#real-estate-and-investment > div > div > div > div > ul > li {
+	color: #777;
+}
+
+#contact > div > div > div {
+	margin-left: 31%;
+}
+
+#non-profit-associations > div > div > ul > li > div {
+	width: 100%;
+}
+
+#non-profit-associations > div > div > ul > li {
+	color: #555;
+	font-size: 17px;
+	line-height: 34px;
+}
+
+#non-profit-associations > div > h2 {
+	margin-top: 41px !important;
+}
+
+#non-profit-associations > div > div > ul {
+	padding-bottom: 41px;
+}
+
+#topbar > div > div:nth-child(2) > div {
+	display: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#commercial-law > div.line, #commercial-law > div:nth-child(2), #commercial-law > div:nth-child(3) {
+	padding-left: 19%;
+	padding-right: 19%;
+}
+
+#commercial-law > div.line > div:nth-child(4) {
+	display: inline-block;
+}
+
+#commercial-law > div.line > div.margin > div {
+	min-width: 230px;
+}
+
+#owl-demo > div.owl-wrapper-outer {
+	height: 617px;
+}
+
+#intellectual-property > div > div > ul > li:before {
+	background: #00283a none repeat scroll 0 0;
+	content: "\f006";
+	display: inline-block;
+	font-family: "mfg";
+	height: 20px;
+	margin-left: -1em;
+	margin-right: 0.625em;
+	text-align: center;
+	width: 20px;
+	/* font-size: 16px; */
+	/* text-align: center; */
+	line-height: 25px;
+	/* padding-top: 7px; */
+	/* padding-bottom: 7px; */
+	color: #aaa;
+	font-size: 15px;
+}
+
+#intellectual-property > div > div > ul {
+	list-style: none;
+	color: #aaa;
+}
+
+.heading-text {
+	color: #aaa !important;
+	padding-bottom: 11px;
+	margin-top: 30px;
+}
+
+body > header > nav > div > div.s-12.l-2 {
+	padding-left: 30px;
+}
+
+.list-items-8 {
+    text-align: center;
+    line-height: 17px;
+    color: #555;
+    font-size: 18px;
+}
+
+.list-items-8:before {
+	background: transparent;
+    color: #444;
+}
+
